@@ -1,0 +1,49 @@
+{
+  "size": 4,
+  "statements": [
+    {
+      "title": "if",
+      "code": "if(//condition){//code}"
+    },
+
+    {
+      "title": "else if",
+      "code": "else if(//condition){//code}"
+    },
+
+    {
+      "title": "else",
+      "code": "else(//condition){//code}"
+    },    
+
+    {
+      "title": "break",
+      "code": "break;"
+    },
+    
+    {
+      "title": "exit",
+      "code": "exit(0);"
+    },
+
+    {
+      "title": "for",
+      "code": "for(//conditions here){//code here};"
+    },
+
+    {
+      "title": "do-while",
+      "code": "do{//code here}while(//condition here)"
+    },
+
+    {
+      "title": "while",
+      "code": "while(//codition){//code here}"
+    },
+
+    {
+      "title": "continue",
+      "code": "continue;"
+    }
+  ]
+}

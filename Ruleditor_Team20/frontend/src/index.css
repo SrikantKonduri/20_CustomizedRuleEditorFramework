@@ -1,0 +1,67 @@
+body {
+    background-image: url("src/assets/background.jpg");
+}
+
+.codeselector{
+    width: 20%;
+    margin: 10%;
+    font-weight: bolder;
+}
+
+.codes{
+    max-height: 320px;
+    overflow-y: scroll;
+}
+
+.codes::-webkit-scrollbar {
+    display: none;
+}
+
+.userarea{
+    display: flex;
+}
+
+#editor{
+    border: solid lightslategray;
+}
+
+.buttonsDisp{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.validatebutton{
+    height: 85px;
+    width: 85px;
+    border-radius: 50px;
+    border: solid rgb(5, 77, 5);
+    margin-top: 35%;
+    margin-left: 3%;
+}
+
+.uploadbutton{
+    margin: 10px;
+    border: solid darkgray;
+}
+
+.uploaddiv{
+    margin-top: 5px;
+    border: solid lightgray;
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    color: lightgray;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#editor { 
+    /* position: absolute; */
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    height: 750px;
+    width: 800px
+}
